@@ -126,6 +126,18 @@
       $('body').css("overflow-y", "scroll");
       $('.dummy-content-wrapper').removeClass("scroll-hide");
     });
+			
+	//Botoshy
+	$(document).ready(function () {
+
+		$(window).on('resize', function () {
+
+		   if($(this).width() <= 699) {
+
+			$('.dummy-content').css('width', '300%');
+		   }
+		});
+	});
 
 		</script>
 
