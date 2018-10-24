@@ -169,8 +169,10 @@ body {
 }
 @media(min-width: 769px) and (max-width: 1030px)
 {
-
-      .dummy-content {
-        width: 300%;
-      }
+  .dummy-content {
+    width: 300%;
+  }
+  .pop-up {
+    top: 3%;
+  }
 }
